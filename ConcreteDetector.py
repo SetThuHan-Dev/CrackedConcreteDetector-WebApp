@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 from tensorflow.keras.utils import img_to_array
 from tensorflow.keras.applications.vgg16 import preprocess_input
-from tensorflow.keras.models import load_model
+from tf_keras.models import load_model
 
 st.title("Cracked Or Uncracked 🤔❓")
 st.header("Please upload any concrete image 🖌️ (.jpg)")
